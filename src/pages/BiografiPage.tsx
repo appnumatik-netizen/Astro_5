@@ -3,7 +3,7 @@ import PageNavigation from "@/components/PageNavigation";
 import { User } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { playPopSound } from "@/hooks/useAudio";
-import fotoBiografi from "@/assets/FOTO_RESMI_IRAWAN.jpg";
+import { fotoBiografi } from "@/assets/placeholder";
 
 const BiografiPage = () => {
   const navigate = useNavigate();

@@ -1,8 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Starfield from "@/components/Starfield";
 import SpaceObjects from "@/components/SpaceObjects";
-import spaceBg from "@/assets/space-bg.jpg";
-import logoNumatik from "@/assets/logo-numatik.png";
+import { spaceBg, logoNumatik } from "@/assets/placeholder";
 import { playPopSound } from "@/hooks/useAudio";
 
 const WelcomePage = () => {

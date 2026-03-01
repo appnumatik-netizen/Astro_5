@@ -4,9 +4,7 @@ import Starfield from "@/components/Starfield";
 import QuizNavigation from "@/components/QuizNavigation";
 import { useAudio } from "@/hooks/useAudio";
 import { lingkaranQuizQuestions } from "@/data/lingkaranQuizData";
-import spaceBg from "@/assets/space-bg.jpg";
-import spaceshipImg from "@/assets/spaceship-new.png";
-import meteorImg from "@/assets/meteor-new.png";
+import { spaceBg, spaceshipImg, meteorImg } from "@/assets/placeholder";
 
 interface MeteorState {
   id: number;
